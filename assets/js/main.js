@@ -57,7 +57,18 @@
 					offset: x
 				});
 
-			});
+      });
+
+      $('.tourbillon').click(function () {
+        window.open(
+          'https://www.google.com/',
+          '_blank'
+        );
+      });
+
+      $('a').click(function (event) {
+          event.stopPropagation();
+      });
 
 	});
 
