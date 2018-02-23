@@ -1448,7 +1448,7 @@
 					background-color: #444;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #ffffff !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1474,6 +1474,10 @@
 
 				ul.social li a.fa-linkedin {
 					background-color: #006599;
+        }
+
+        ul.social li a.fa-envelope {
+					background-color: #006599;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1481,11 +1485,11 @@
 				}
 
 				ul.social li a.fa-google-plus {
-					background-color: #DA2713;
+					background-color: #006599;
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #006599;
 				}
 
 				ul.social li a.fa-rss {
@@ -1868,11 +1872,13 @@
 
 	.wrapper {
 		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 0em;
 	}
 
 		.wrapper.first {
-			box-shadow: none;
+      box-shadow: none;
+      padding-bottom: 6em;
 		}
 
 		.wrapper.style1 {
@@ -1882,18 +1888,19 @@
 
 		.wrapper.style2 {
 			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+      background-color: #f4f4f4;
+      padding: 5em 0 0 0;
 		}
 
 		.wrapper.style4 {
 			background-color: #303030;
 			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+      text-shadow: -1px -1px 0px #181818;
+      padding: 1em 0 1em 0;
+      margin-top: 5em;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2198,17 +2205,21 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 5em 0 5em 0;
+				padding: 3em 0 3em 0;
 				text-align: center;
 			}
 
 				.wrapper.first {
-					padding-top: 9em;
+					padding: 7em 0 3em 0;
 				}
 
 				.wrapper.style4 .row-special {
 					margin: 2em 0 0 0;
 					padding: 2em 0 2em 0;
+        }
+
+        .wrapper.style3 {
+					padding-bottom: 0em;
 				}
 
 		/* Articles */
