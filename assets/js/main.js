@@ -61,6 +61,20 @@
 
       $('.tourbillon').click(function () {
         window.open(
+          'https://tourbillon-store.herokuapp.com/',
+          '_blank'
+        );
+      });
+
+      $('.unity-ultimate').click(function () {
+        window.open(
+          'https://www.google.com/',
+          '_blank'
+        );
+      });
+
+      $('.lingua').click(function () {
+        window.open(
           'https://www.google.com/',
           '_blank'
         );
