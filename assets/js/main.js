@@ -68,14 +68,14 @@
 
       $('.unity-ultimate').click(function () {
         window.open(
-          'https://www.google.com/',
+          'https://github.com/schai6/unity-ultimate',
           '_blank'
         );
       });
 
       $('.lingua').click(function () {
         window.open(
-          'https://www.google.com/',
+          'https://lingua-learn.herokuapp.com/',
           '_blank'
         );
       });
