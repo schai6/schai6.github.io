@@ -1857,7 +1857,7 @@
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #006599;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1886,12 +1886,12 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+      background-color: #fafafa;
 		}
 
 		.wrapper.style3 {
       background-color: #f4f4f4;
-      padding: 5em 0 0 0;
+      padding: 10em 0 0 0;
 		}
 
 		.wrapper.style4 {
