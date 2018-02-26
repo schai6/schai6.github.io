@@ -1736,7 +1736,7 @@
       }
 
         body:not(.is-touch) .tiles article:hover > .image:before {
-          background-color: #333333;
+          background-color: #006599;
           opacity: 0.9;
         }
 
